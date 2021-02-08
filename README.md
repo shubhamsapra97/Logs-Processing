@@ -38,7 +38,7 @@ PROJECT START STEPS:
 {
     "response": [
         {
-            "timestamp": "time_range",
+            "timestamp": "03:00-03:15",
             "logs": [
                 {
                     "exception": AnyOtherException,
