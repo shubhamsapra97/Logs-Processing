@@ -20,8 +20,8 @@ PROJECT START STEPS:
 - Project exposes a rest endpoint `POST - /api/process-logs/`
 - Request data should contain following
     - logFiles: list of text files (publically available urls) containing logs in format
-        - request_id UTC_timestamp Log Exception
-        Eg: 1 1612783483 NullPointerException
+        - request_id  UTC_timestamp  Log_Exception_Namw
+        - Example: 1  1612783483  NullPointerException
     - parallelFileProcessingCount: number of files to be processed in parallel
 - Api aggregates the data using `parallelFileProcessingCount` number of threads in    parallel and reducing the processing time to less than half.
 
