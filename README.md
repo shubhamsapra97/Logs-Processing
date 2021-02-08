@@ -30,7 +30,7 @@ PROJECT START STEPS:
 - time range is 15min window enclosing the log
 - Eg: log creation time is: 31st Dec 2020 03:12:00
 - `Time range` will be 03:00-03:15
-- Logs are aggregated based on this time range and if multiple logs occur in a time range, they are sorted 
+- Logs are aggregated based on this time range and if multiple logs occur in a time range, they are sorted lexiograpghically.
 - Eg: `NullPointerException` and `AnyOtherException` exceptions were logged in same time range window. So in logs array `AnyOtherException` will come before `NullPointerException`. Refer to below structure for more.
 
 - Respose Structure:
